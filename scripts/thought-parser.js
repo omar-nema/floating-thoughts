@@ -27,7 +27,7 @@ function scatterY(num, container) {
 }
 
 $(function() {
-    var thoughts = d3.csv('../self-portrait/data/thoughts.csv', function(d) {
+    var thoughts = d3.csv('../data/thoughts.csv', function(d) {
         return {
             thought: d.thought,
             pattern: d.pattern,
